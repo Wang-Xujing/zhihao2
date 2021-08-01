@@ -1,0 +1,37 @@
+.quick-wrap{
+	width:20em;
+	height:6em
+}
+.el-card__body .clearfix{
+	padding-left:5em;
+}
+
+.little{
+	/* width:7em;
+	height:3em; */
+	position: absolute;
+	top: 0;
+	left: 3em;
+	display: none;
+}
+.little div{
+	width:7em;
+	height:3em;
+	padding: 0;
+	/* margin:0; */
+	/* margin-right: 10em; */
+}
+#lamb{
+	width: 1200px;
+	height: 600px;
+}
+.select{
+	display: flex;
+	margin-left: 20%;
+}
+#lamb-select{
+	/*margin-left:20%;*/
+}
+.select-text{
+	/*margin-left: 20%;*/
+}

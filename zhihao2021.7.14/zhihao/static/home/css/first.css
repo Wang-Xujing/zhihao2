@@ -1,0 +1,14 @@
+#home{
+	background-color: #fff;
+	background: #fff;
+}
+
+.clearfix{
+	margin: 10em 6em 0 13em;
+	/* padding-left:5em; */
+}
+
+.quick-wrap{
+	width:20em;
+	height:6em
+}

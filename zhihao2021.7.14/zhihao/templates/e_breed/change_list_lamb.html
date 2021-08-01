@@ -1,0 +1,149 @@
+{% extends "admin/base_site.html" %}
+{% load i18n admin_urls static admin_list %}
+
+{% block extrastyle %}
+    {{ block.super }}
+    <link rel="stylesheet" type="text/css" href="{% static "admin/css/changelists.css" %}?_=20180905"/>
+
+    {% if cl.formset %}
+        <link rel="stylesheet" type="text/css" href="{% static "admin/css/forms.css" %}"/>
+    {% endif %}
+    {% if cl.formset or action_form %}
+        <script type="text/javascript" src="{% url 'admin:jsi18n' %}"></script>
+    {% endif %}
+    {{ media.css }}
+    {% if not actions_on_top and not actions_on_bottom %}
+        <style>
+            #changelist table thead th:first-child {
+                width: inherit
+            }
+        </style>
+    {% endif %}
+{% endblock %}
+
+{% block extrahead %}
+    {{ block.super }}
+    {{ media.js }}
+{% endblock %}
+
+{% block bodyclass %}{{ block.super }} app-{{ opts.app_label }} model-{{ opts.model_name }} change-list{% endblock %}
+
+{% if not is_popup %}
+    {% block breadcrumbs %}
+        <div class="breadcrumbs">
+            <a href="{% url 'admin:index' %}">{% trans 'Home' %}</a>
+            &rsaquo; <a
+                href="{% url 'admin:app_list' app_label=cl.opts.app_label %}">{{ cl.opts.app_config.verbose_name }}</a>
+            &rsaquo; {{ cl.opts.verbose_name_plural|capfirst }}
+        </div>
+    {% endblock %}
+{% endif %}
+
+{% block coltype %}flex{% endblock %}
+{% block content_title %}
+
+{% endblock %}
+{% block content %}
+    <style>
+        #content {
+            position: relative;
+        }
+
+        .object-tools {
+            position: absolute;
+            top: 16px;
+            right: 20px;
+            height: 50px;
+            z-index: 2;
+        }
+
+        .object-tools .import_link, .object-tools .export_link {
+            color: white !important;
+        }
+
+    </style>
+    {% block object-tools %}
+        <ul class="object-tools">
+            {% block object-tools-items %}
+                {% if has_add_permission %}
+                    {{ block.super }}
+                {% endif %}
+            {% endblock %}
+        </ul>
+    {% endblock %}
+
+    <div id="content-main">
+
+        {% if cl.formset.errors %}
+            <p class="errornote">
+                {% if cl.formset.total_error_count == 1 %}{% trans "Please correct the error below." %}{% else %}
+                    {% trans "Please correct the errors below." %}{% endif %}
+            </p>
+            {{ cl.formset.non_form_errors }}
+        {% endif %}
+        <div class="module{% if cl.has_filters %} filtered{% endif %}" id="changelist">
+            {% block search %}{% search_form cl %}{% endblock %}
+            {% block date_hierarchy %}{% date_hierarchy cl %}{% endblock %}
+
+            <form id="changelist-form" method="post" {% if cl.formset.is_multipart %}
+                  enctype="multipart/form-data" {% endif %} novalidate>{% csrf_token %}
+                {% if cl.formset %}
+                    <div>{{ cl.formset.management_form }}</div>
+                {% endif %}
+                {% block result_list %}
+
+                    {# {% if action_form %}#}
+                    {% admin_actions %}
+                    <script type="text/javascript">
+                        function lambTobasic(url) {
+                            var height = 600;
+                            var width = 700;
+                            var top = (screen.availHeight - height) / 2;
+                            var left = (screen.availWidth - width) / 2;
+                            var select = window.document.querySelectorAll("tr.selected");
+                            s=""
+                            for (i = 0; i < select.length; i++)
+                                s += "s="+select[i].getElementsByClassName('field-id')[0].textContent + "&";
+                            window.open(url+"?"+s, "pp", 'height=' + height + ', width=' + width + ',top=' + top + ',left=' + left + ',  status=1,toolbar=no, menubar=no, scrollbars=yes, resizable=no,location=no, status=no');
+                        }
+                    </script>
+                    <!--<input type="button"  value="羔羊入库" onclick='lambTobasic("http://39.99.175.254:8000/e_breed/lambinfo/lambTobasic")'>-->
+                    {# {% endif %}#}
+                    {% result_list cl %}
+
+                {% endblock %}
+                {% block pagination %}{% pagination cl %}{% endblock %}
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(".object-tools").hide().find('li a').each(function () {
+            _action.exts.push({
+                name: $(this).text(),
+                url: $(this).attr('href')
+            })
+        });
+        $("th.column-ele_id span").html("电子耳号");
+        $("th.column-maker span").html("生产厂家");
+        $("th.column-drug_maker span").html("生产厂家");
+        $("th.column-ele_id_ewe span").html("母羊耳号");
+        $("th.column-ele_id_ram span").html("公羊耳号");
+		$("th.column-id .text").html("<span>保存入棚</span>");
+        $(".column-basic_id").hide();
+        $(".field-basic_id").hide();
+        $(".column-maker_id").hide();
+        $(".field-maker_id").hide();
+		$("button[class$='primary']:eq(1)").hide();
+		$("#result_list tbody tr").each(
+		    function () {
+                if($(this).find(".field-tobasic img").attr("alt")=="False"){
+                    $(this).find(".field-id a").html("入棚");
+                }
+                else{
+                    $(this).find(".field-id a").html("");
+                }
+            }
+        );
+
+    </script>
+{% endblock %}

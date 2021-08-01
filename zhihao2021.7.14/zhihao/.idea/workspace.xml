@@ -1,0 +1,918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="013f7839-1d87-432a-b525-f5b6d377f78c" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/e_breed/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="31920">
+              <caret line="1285" selection-start-line="1285" selection-end-line="1285" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#45098#52259#0" />
+                <element signature="e#52319#55306#0" />
+                <element signature="e#55641#57090#0" />
+                <element signature="e#57135#59650#0" />
+                <element signature="e#59703#59921#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/account/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="660">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/admin/options.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12870">
+              <caret line="542" column="6" selection-start-line="542" selection-start-column="6" selection-end-line="542" selection-end-column="6" />
+              <folding>
+                <element signature="e#4523#4571#0" />
+                <element signature="e#4605#4929#0" />
+                <element signature="e#5005#7993#0" />
+                <element signature="e#24203#25018#0" />
+                <element signature="e#25074#25375#0" />
+                <element signature="e#25433#25737#0" />
+                <element signature="e#25792#26333#0" />
+                <element signature="e#26378#26873#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/test.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/test_fieldset.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2880">
+              <caret line="96" column="59" selection-start-line="96" selection-start-column="59" selection-end-line="96" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/simpleui_test/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
+              <folding>
+                <element signature="e#10507#11022#0" />
+                <element signature="e#11048#11500#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/apps/d_health/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/colony/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/apps/d_health/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-571">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+                <element signature="e#1168#2186#0" />
+                <element signature="e#1281#1807#0" />
+                <element signature="e#1868#2186#0" />
+                <element signature="e#2241#3192#0" />
+                <element signature="e#3807#4763#0" />
+                <element signature="e#4818#5773#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Python Script" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>variety_choices</find>
+      <find>f_name</find>
+      <find>v_name</find>
+      <find>obj1</find>
+      <find>block content</find>
+      <find>actions</find>
+      <find>e_breed_breedinginfo</find>
+      <find>change_data</find>
+      <find>change_view_d</find>
+      <find>Vaccine_in</find>
+      <find>change_view_data</find>
+      <find>maker_id</find>
+      <find>add_other</find>
+      <find>this_</find>
+      <find>pre_production_date</find>
+      <find>quantity</find>
+      <find>timezone</find>
+      <find>fieldset</find>
+      <find>adminform</find>
+      <find>羔羊</find>
+      <find>echarts</find>
+      <find>cl</find>
+      <find>model_name</find>
+      <find>get_paginator</find>
+      <find>paginator</find>
+      <find>get_queryset</find>
+      <find>get_queryse</find>
+      <find>list_filter</find>
+      <find>list_filter = [eleFilter, preFilter]</find>
+      <find>belong</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>i</replace>
+      <replace>ordering = ('-f_date',)</replace>
+      <replace>ordering = ('-id',)</replace>
+      <replace>prepend</replace>
+      <replace>sex</replace>
+      <replace>rank</replace>
+      <replace>color</replace>
+      <replace>in_amount</replace>
+      <replace>list_filter =[]</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/testenv/Lib/site-packages/simpleui/templates/admin/home.html" />
+        <option value="$PROJECT_DIR$/apps/basic/views/show.py" />
+        <option value="$PROJECT_DIR$/apps/basic/views/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/basic/urls.py" />
+        <option value="$PROJECT_DIR$/apps/home/views/show.py" />
+        <option value="$PROJECT_DIR$/apps/home/views/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/home/urls.py" />
+        <option value="$PROJECT_DIR$/templates/basic/change_list_zhu_basic.html" />
+        <option value="$PROJECT_DIR$/static/home/css/xipu.css" />
+        <option value="$PROJECT_DIR$/templates/home/xipu.html" />
+        <option value="$PROJECT_DIR$/apps/supply/admin.py" />
+        <option value="$PROJECT_DIR$/templates/test_fieldset-rutinfo.html" />
+        <option value="$PROJECT_DIR$/templates/test_fieldset-semencollectinfo.html" />
+        <option value="$PROJECT_DIR$/templates/e_breed/test_change_lamb_fieldset.html" />
+        <option value="$PROJECT_DIR$/templates/g_slaughter/test_fieldset_SlaughterSegmentInfo.html" />
+        <option value="$PROJECT_DIR$/apps/__init__.py" />
+        <option value="$PROJECT_DIR$/apps/valid.py" />
+        <option value="$PROJECT_DIR$/templates/page/test_change_list_ram.html" />
+        <option value="$PROJECT_DIR$/templates/home/first.html" />
+        <option value="$PROJECT_DIR$/templates/test-rutinfo.html" />
+        <option value="$PROJECT_DIR$/templates/test-semencollectinfo.html" />
+        <option value="$PROJECT_DIR$/templates/g_slaughter/test_SlaughterSegmentInfo.html" />
+        <option value="$PROJECT_DIR$/templates/e_breed/test_breedinginfo.html" />
+        <option value="$PROJECT_DIR$/templates/e_breed/test_change_lamb.html" />
+        <option value="$PROJECT_DIR$/apps/home/views/xipu.py" />
+        <option value="$PROJECT_DIR$/templates/test_change_list.html" />
+        <option value="$PROJECT_DIR$/apps/basic/models.py" />
+        <option value="$PROJECT_DIR$/apps/basic/admin.py" />
+        <option value="$PROJECT_DIR$/templates/e_breed/test_fieldset_breedinginfo.html" />
+        <option value="$PROJECT_DIR$/apps/supply/models.py" />
+        <option value="$PROJECT_DIR$/collect_static/js/valid.js" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/simpleui/templates/admin/base.html" />
+        <option value="$PROJECT_DIR$/static/home/js/羔羊可视化echarts.js" />
+        <option value="$PROJECT_DIR$/apps/h_store/models.py" />
+        <option value="$PROJECT_DIR$/templates/test.html" />
+        <option value="$PROJECT_DIR$/static/js/valid.js" />
+        <option value="$PROJECT_DIR$/apps/colony/models.py" />
+        <option value="$PROJECT_DIR$/apps/e_breed/models.py" />
+        <option value="$PROJECT_DIR$/apps/g_slaughter/models.py" />
+        <option value="$PROJECT_DIR$/apps/colony/admin.py" />
+        <option value="$PROJECT_DIR$/apps/h_store/admin.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/admin/options.py" />
+        <option value="$PROJECT_DIR$/static/home/js/羔羊可视化.js" />
+        <option value="$PROJECT_DIR$/apps/e_breed/admin.py" />
+        <option value="$PROJECT_DIR$/apps/feeding/admin.py" />
+        <option value="$PROJECT_DIR$/apps/g_slaughter/admin.py" />
+        <option value="$PROJECT_DIR$/simpleui_test/urls.py" />
+        <option value="$PROJECT_DIR$/apps/d_health/models.py" />
+        <option value="$PROJECT_DIR$/apps/d_health/admin.py" />
+        <option value="$PROJECT_DIR$/templates/test_fieldset.html" />
+        <option value="$PROJECT_DIR$/simpleui_test/settings.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="35" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zhihao2021.6.18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihao2021.6.18" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhihao2021.6.18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihao2021.6.18" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhihao2021.6.18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihao2021.6.18" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="d_health" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zhihao2021.6.18" type="b2602c69:ProjectViewProjectNode" />
+              <item name="zhihao2021.6.18" type="462c0819:PsiDirectoryNode" />
+              <item name="simpleui_test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zhihao" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\pycharm_document\zhihao\zhihao(7.3)\zhihao2021.6.18\apps\d_health" />
+      <recent name="D:\pycharm_document\zhihao\zhihao(7.3)\zhihao2021.6.18\simpleui_test" />
+      <recent name="D:\pycharm_document\zhihao\zhihao2021.4.15\simpleui_test" />
+      <recent name="C:\Users\11349\AppData\Local\Programs\Python\Python36\Lib\site-packages\django\contrib\admin" />
+      <recent name="D:\pycharm_document\zhihao\zhihao2021.4.15\static\js" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\pycharm文件\服务器文件\服务器版本2021.1.22\static\home\css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="013f7839-1d87-432a-b525-f5b6d377f78c" name="Default Changelist" comment="" />
+      <created>1600846289994</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600846289994</updated>
+      <workItem from="1600846291133" duration="1625000" />
+      <workItem from="1600857382338" duration="2838000" />
+      <workItem from="1600904593879" duration="7715000" />
+      <workItem from="1600937937597" duration="7433000" />
+      <workItem from="1601027766453" duration="6629000" />
+      <workItem from="1611298705126" duration="10305000" />
+      <workItem from="1611364579890" duration="4958000" />
+      <workItem from="1611470870991" duration="1909000" />
+      <workItem from="1611555089386" duration="13000" />
+      <workItem from="1611572024551" duration="4765000" />
+      <workItem from="1611907761539" duration="12546000" />
+      <workItem from="1611932896548" duration="150000" />
+      <workItem from="1611988574519" duration="6838000" />
+      <workItem from="1612090491402" duration="3000" />
+      <workItem from="1612268990292" duration="4495000" />
+      <workItem from="1618456307753" duration="5295000" />
+      <workItem from="1618467222481" duration="15378000" />
+      <workItem from="1618488584186" duration="8549000" />
+      <workItem from="1618539254312" duration="9365000" />
+      <workItem from="1618564137797" duration="4500000" />
+      <workItem from="1618569311953" duration="52000" />
+      <workItem from="1618574541249" duration="257000" />
+      <workItem from="1618624798281" duration="3882000" />
+      <workItem from="1618788292435" duration="755000" />
+      <workItem from="1618821489808" duration="36000" />
+      <workItem from="1618833232981" duration="1740000" />
+      <workItem from="1618873802146" duration="4325000" />
+      <workItem from="1618907234508" duration="2926000" />
+      <workItem from="1618920302015" duration="1861000" />
+      <workItem from="1619002251227" duration="624000" />
+      <workItem from="1619084107704" duration="276000" />
+      <workItem from="1619093347153" duration="1733000" />
+      <workItem from="1619146012394" duration="4180000" />
+      <workItem from="1619167145041" duration="8192000" />
+      <workItem from="1619228044724" duration="2163000" />
+      <workItem from="1619273071485" duration="180000" />
+      <workItem from="1619316800839" duration="1287000" />
+      <workItem from="1619336782160" duration="4000" />
+      <workItem from="1619339662150" duration="1746000" />
+      <workItem from="1619357627523" duration="3657000" />
+      <workItem from="1619443432090" duration="391000" />
+      <workItem from="1619446566444" duration="3294000" />
+      <workItem from="1619513063723" duration="2199000" />
+      <workItem from="1619529187370" duration="1025000" />
+      <workItem from="1619614222442" duration="6982000" />
+      <workItem from="1619661419960" duration="54000" />
+      <workItem from="1619672281837" duration="16662000" />
+      <workItem from="1619697661218" duration="47000" />
+      <workItem from="1619950477200" duration="241000" />
+      <workItem from="1620000381692" duration="613000" />
+      <workItem from="1620611866400" duration="2352000" />
+      <workItem from="1620651496190" duration="930000" />
+      <workItem from="1620653323220" duration="3738000" />
+      <workItem from="1620709484541" duration="228000" />
+      <workItem from="1620734413009" duration="729000" />
+      <workItem from="1620784856119" duration="299000" />
+      <workItem from="1620804192824" duration="759000" />
+      <workItem from="1620980696482" duration="27000" />
+      <workItem from="1621039243321" duration="706000" />
+      <workItem from="1621249343489" duration="1824000" />
+      <workItem from="1621932997367" duration="1689000" />
+      <workItem from="1622011474211" duration="197000" />
+      <workItem from="1622015289022" duration="1460000" />
+      <workItem from="1622022098402" duration="3522000" />
+      <workItem from="1622049495898" duration="3188000" />
+      <workItem from="1622204448511" duration="201000" />
+      <workItem from="1622345842402" duration="3695000" />
+      <workItem from="1622765338929" duration="1540000" />
+      <workItem from="1622770537787" duration="759000" />
+      <workItem from="1622899444772" duration="703000" />
+      <workItem from="1622942040890" duration="689000" />
+      <workItem from="1622947423688" duration="3538000" />
+      <workItem from="1622974809814" duration="640000" />
+      <workItem from="1623056731179" duration="634000" />
+      <workItem from="1623232152874" duration="605000" />
+      <workItem from="1623491554519" duration="1906000" />
+      <workItem from="1623587936507" duration="1955000" />
+      <workItem from="1623977615658" duration="3418000" />
+      <workItem from="1623999857367" duration="12455000" />
+      <workItem from="1624079969786" duration="953000" />
+      <workItem from="1624085622100" duration="3083000" />
+      <workItem from="1624091521315" duration="6279000" />
+      <workItem from="1624139408082" duration="2132000" />
+      <workItem from="1624143363686" duration="44000" />
+      <workItem from="1624145044146" duration="969000" />
+      <workItem from="1624182443369" duration="257000" />
+      <workItem from="1624184862005" duration="603000" />
+      <workItem from="1624189173750" duration="1281000" />
+      <workItem from="1624453166038" duration="1321000" />
+      <workItem from="1624718068503" duration="475000" />
+      <workItem from="1624784301577" duration="904000" />
+      <workItem from="1624798134273" duration="295000" />
+      <workItem from="1625228250317" duration="1157000" />
+      <workItem from="1625400136528" duration="47000" />
+      <workItem from="1625654310743" duration="2175000" />
+      <workItem from="1626246410959" duration="133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="263187000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2955764" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.34087694" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2727882" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.34087694" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/apps/e_breed/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#257#1098#0" />
+            <element signature="e#1141#2113#0" />
+            <element signature="e#3786#4069#0" />
+            <element signature="e#4104#4226#0" />
+            <element signature="e#4261#4384#0" />
+            <element signature="e#4420#4523#0" />
+            <element signature="e#4559#4662#0" />
+            <element signature="e#4780#5885#0" />
+            <element signature="e#5925#8296#0" />
+            <element signature="e#8344#9877#0" />
+            <element signature="e#9915#11317#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/simpleui/templates/admin/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1187">
+          <caret line="196" column="18" selection-start-line="196" selection-start-column="18" selection-end-line="196" selection-end-column="18" />
+          <folding>
+            <element signature="e#236#2280#0" />
+            <element signature="e#2485#2774#0" />
+            <element signature="e#2775#4621#0" />
+            <element signature="e#4764#5332#0" />
+            <element signature="e#5367#5477#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/simpleui/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5137">
+          <caret line="217" column="47" selection-start-line="217" selection-start-column="47" selection-end-line="217" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/simpleui/templates/admin/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-487">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/xipu.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/basic/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home/first.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/db/models/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11910">
+          <caret line="503" column="19" selection-start-line="503" selection-start-column="19" selection-end-line="503" selection-end-column="19" />
+          <folding>
+            <element signature="e#17291#17414#0" />
+            <element signature="e#17451#17939#0" />
+            <element signature="e#17966#18257#0" />
+            <element signature="e#18413#20197#0" />
+            <element signature="e#20230#20896#0" />
+            <element signature="e#21104#21463#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/admin/views/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11850">
+          <caret line="419" column="8" selection-start-line="419" selection-start-column="8" selection-end-line="419" selection-end-column="8" />
+          <folding>
+            <element signature="e#18853#18932#0" />
+            <element signature="e#19523#19660#0" />
+            <element signature="e#19704#20097#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/e_breed/migrations/0007_auto_20210619_1602.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/core/paginator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="140" column="53" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="53" />
+          <folding>
+            <element signature="e#880#1504#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/feeding/migrations/0005_auto_20210308_1622.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h_store/migrations/0003_auto_20210619_1602.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/supply/migrations/0004_auto_20210619_1602.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/feeding/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#380#1281#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/羔羊可视化.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/g_slaughter/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3570">
+          <caret line="159" column="19" selection-start-line="159" selection-start-column="19" selection-end-line="159" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#366#1318#0" />
+            <element signature="e#1372#2323#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/supply/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleui_test/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h_store/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#228#2397#0" />
+            <element signature="e#2447#3929#0" />
+            <element signature="e#3998#5233#0" />
+            <element signature="e#7868#9167#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/first.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/home/js/羔羊可视化echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding>
+            <element signature="e#962#1389#0" />
+            <element signature="e#1483#1760#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleui_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="e#637#669#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/account/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/d_health/migrations/0002_auto_20201021_0933.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h_store/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/home/views/xipu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#368#562#0" />
+            <element signature="e#605#1804#0" />
+            <element signature="e#1853#2381#0" />
+            <element signature="e#2431#3787#0" />
+            <element signature="e#3836#4896#0" />
+            <element signature="e#4932#5292#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/home/views/seven.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" selection-start-line="2" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/home/models.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/supply/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="19" column="87" lean-forward="true" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/home/views/keshihua.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#486#933#0" />
+            <element signature="e#960#1473#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/home/views/first.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/h_store/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="94" column="76" selection-start-line="94" selection-start-column="76" selection-end-line="94" selection-end-column="76" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#3787#12691#0" />
+            <element signature="e#13332#20364#0" />
+            <element signature="e#21001#29674#0" />
+            <element signature="e#30314#38294#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/collect_static/js/d3.v4.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logs/wsgi.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleui_test/asgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleui_test/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wfastcgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/e_breed/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31920">
+          <caret line="1285" selection-start-line="1285" selection-end-line="1285" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#45098#52259#0" />
+            <element signature="e#52319#55306#0" />
+            <element signature="e#55641#57090#0" />
+            <element signature="e#57135#59650#0" />
+            <element signature="e#59703#59921#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/account/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/auth/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/django/contrib/admin/options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12870">
+          <caret line="542" column="6" selection-start-line="542" selection-start-column="6" selection-end-line="542" selection-end-column="6" />
+          <folding>
+            <element signature="e#4523#4571#0" />
+            <element signature="e#4605#4929#0" />
+            <element signature="e#5005#7993#0" />
+            <element signature="e#24203#25018#0" />
+            <element signature="e#25074#25375#0" />
+            <element signature="e#25433#25737#0" />
+            <element signature="e#25792#26333#0" />
+            <element signature="e#26378#26873#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/test_fieldset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="96" column="59" selection-start-line="96" selection-start-column="59" selection-end-line="96" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/colony/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/d_health/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-571">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#1168#2186#0" />
+            <element signature="e#1281#1807#0" />
+            <element signature="e#1868#2186#0" />
+            <element signature="e#2241#3192#0" />
+            <element signature="e#3807#4763#0" />
+            <element signature="e#4818#5773#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/simpleui_test/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="379" column="1" selection-start-line="379" selection-start-column="1" selection-end-line="379" selection-end-column="1" />
+          <folding>
+            <element signature="e#10507#11022#0" />
+            <element signature="e#11048#11500#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/d_health/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
